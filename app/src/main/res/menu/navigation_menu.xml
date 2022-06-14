@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="@string/perfiltitulo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Fichar" />
+
+    <item
+        android:id="@+id/nav_tareas"
+        android:title="Tareas" />
+    <item
+        android:id="@+id/nav_admin"
+        android:title="Administrar" >
+        <menu >
+            <item
+                android:id="@+id/new_user"
+                android:title="Nuevo usuario" />
+            <item
+                android:id="@+id/users"
+                android:title="Usuarios" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_report"
+        android:title="Reportes" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Salir" />
+</menu>

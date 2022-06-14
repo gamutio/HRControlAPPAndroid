@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".Singup"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/usuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/usuarios"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollUsers"
+        android:layout_width="374dp"
+        android:layout_height="566dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="1"
+        android:scrollbars="horizontal|vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usuarios"
+        app:layout_constraintVertical_bias="0.516">
+
+        <TableLayout
+            android:id="@+id/tablausuarios"
+            android:layout_width="378dp"
+            android:layout_height="582dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="24dp"
+            android:scrollbars="horizontal|vertical"
+            android:stretchColumns="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollUsers">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:scrollbars="horizontal|vertical"
+                android:layout_margin="1dp"
+                android:background="#CCC">
+
+                <TextView
+                    android:id="@+id/headnombreuser"
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nombre"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/headmailusuario"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mail"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/headbuttoneditar"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Editar"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

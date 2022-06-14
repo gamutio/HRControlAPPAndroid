@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">HRControlAPP</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Pwd</string>
+    <string name="logohr">LogoHR</string>
+    <string name="he_olvidado_mi_contrase_a">He olvidado mi contraseña</string>
+    <string name="acceder">Acceder</string>
+    <string name="usuario">Usuario</string>
+    <string name="logohrImage">logohrImage</string>
+    <string name="perfil">Perfil</string>
+    <string name="perfiltitulo">PERFIL</string>
+    <string name="email">Email:</string>
+    <string name="textview">TextView</string>
+    <string name="name">Nombre:</string>
+    <string name="nameText" />
+    <string name="areaname">Área</string>
+    <string-array name="Areas">
+        <item>Administración</item>
+        <item>Técnicos</item>
+    </string-array>
+    <string name="areaText" />
+    <string name="fecAlta">Fecha de Alta</string>
+    <string name="tlfFijo">tlf. Fijo</string>
+    <string name="tlfMovil">tlf. Movil</string>
+    <string name="fichar">Fichar</string>
+    <!--to toggle the open close button
+        of the navigation drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="newUser">Nuevo Usuario</string>
+    <string name="reportes">Reportes</string>
+    <string name="adminButton">Administrador</string>
+    <string name="usuariosistema">Usuario</string>
+    <string name="crear_user">Crear Usuario</string>
+    <string name="usuarios">USUARIOS</string>
+    <string name="modiftitulo">Datos Usuario</string>
+    <string name="editar_user">GUARDAR</string>
+    <string name="RolesE">Roles Asignados</string>
+    <string name="fecha">Fecha</string>
+    <string name="newTask">Nueva Tarea</string>
+
+</resources>

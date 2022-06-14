@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Button for generating the PDF file-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="125dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="140dp"
+        android:src="@drawable/ic_baseline_table_chart_24" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="317dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="40dp"
+        android:text='Presione el Botón "Generar PDF" para que el sistema genere un PDF con los usuarios del sistema.'
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/idBtnGeneratePDF"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="140dp"
+        android:text="Generar PDF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="322dp"
+        android:layout_height="71dp"
+        android:layout_below="@+id/idBtnGeneratePDF"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="40dp"
+        android:text='Una vez generado el pdf, presione el Botón "Abrir PDF" para visualizarlo.'
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/idBtnOpenPDF"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="140dp"
+        android:text="Abrir PDF" />
+
+
+</RelativeLayout>
